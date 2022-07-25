@@ -1,0 +1,52 @@
+.user-info {
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+
+.user-info:last-child {
+    margin-bottom: 0;
+}
+
+.user-avatar {
+    border-radius: 50%;
+}
+
+.users-add input {
+    margin-right: 20px;
+}
+
+.users-add input:last-child {
+    margin-right: 0;
+}
+
+.link-to-user {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    align-items: center;
+    max-width: 500px;
+    padding: 3px;
+    transition: all 0.4s ease;
+}
+
+.link-to-user:hover {
+    background-color: #bdd701;
+}
+
+.link-to-user .user-data {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio-button-group {
+    display: flex;
+    align-items: center;
+}
+
+.radio-button-group label {
+    margin-right: 10px;
+}
+
+.users-add span {
+    margin-right: 4px;
+}
